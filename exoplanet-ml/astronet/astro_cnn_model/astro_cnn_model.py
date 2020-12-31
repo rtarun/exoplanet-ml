@@ -117,5 +117,5 @@ class AstroCNNModel(astro_model.AstroModel):
           inputs=time_series,
           hparams=self.hparams.time_series_hidden[name],
           scope=name + "_hidden")
-
+      
     self.time_series_hidden_layers = time_series_hidden_layers
